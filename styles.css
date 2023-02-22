@@ -54,4 +54,10 @@ body{
 #right-control{
     float: right;
     right: 0;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px #000;
+}
+#left-control{
+    cursor: pointer;
+    text-shadow: 2px 2px 2px #000;
 }
