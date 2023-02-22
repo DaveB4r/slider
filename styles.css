@@ -48,6 +48,9 @@ body{
 .controls{
     font-size: 35px;
     color: #fff;
-    position:absolute ;
     top: 30%;
+}
+#right-control{
+    float: right;
+    right: 0;
 }
