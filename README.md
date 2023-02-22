@@ -2,5 +2,6 @@
 ### Features
 
 - Simple and easy to edit.
-- quickly.
-- functional.
+- Quickly.
+- Functional.
+- Easy to use.
