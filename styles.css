@@ -45,3 +45,9 @@ body{
     margin: 147px 0px 0px 1120px;
     position: absolute;
 }
+.controls{
+    font-size: 35px;
+    color: #fff;
+    position:absolute ;
+    top: 30%;
+}
