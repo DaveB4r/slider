@@ -46,9 +46,10 @@ body{
     position: absolute;
 }
 .controls{
-    font-size: 35px;
+    font-size: 50px;
     color: #fff;
-    top: 30%;
+    margin-top: -140px;
+    position: sticky;
 }
 #right-control{
     float: right;
