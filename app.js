@@ -1,9 +1,10 @@
 "use strict"
 let rightControl = document.getElementById('right-control');
 let leftControl = document.getElementById('left-control');
-let playSlider = false;
+let playSlider = true;
 let num = 3;
 let runSlider = "";
+
 leftControl.addEventListener('click', () => {   
     if(num == 1) num = 4;
     --num
@@ -35,6 +36,7 @@ const sliderPlay = actn =>{
     }
        
 }
+window.addEventListener('load', sliderPlay(playSlider));
 slider.addEventListener('click', ()=>{
     playSlider = !playSlider;
     sliderPlay(playSlider);
