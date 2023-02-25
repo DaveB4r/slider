@@ -20,6 +20,13 @@ body{
     align-self: center;
     margin-top: 250px;
 }
+.play i{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    float: right;
+    margin: -229px 0px 0px 904px;
+}
 .slider-header h1{
     font-size: 45px;
     font-family: 'Anton', sans-serif;
