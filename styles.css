@@ -51,8 +51,9 @@ body{
   color: #c3c3c3;
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
-  margin: 147px 0px 0px 1120px;
+  margin-top: 208px;
   position: absolute;
+  width: 100%;
 }
 .controls{
   font-size: 50px;
