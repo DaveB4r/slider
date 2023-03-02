@@ -12,6 +12,7 @@ body{
 }
 .slider{
   width: 100%;
+  min-width: 1500px;
   height: 600px;
   background-image: url('./images/3.jpg');
   background-size: cover;
