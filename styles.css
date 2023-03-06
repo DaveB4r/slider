@@ -93,3 +93,7 @@ i:hover{
    transform: scale(1.3);
   transition: all ease 1s; 
 }
+.play{
+  cursor: pointer;
+  z-index: 10000;
+}

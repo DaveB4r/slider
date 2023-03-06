@@ -4,7 +4,7 @@ let leftControl = document.getElementById('left-control');
 let playSlider = true;
 let num = 3;
 let runSlider = "";
-
+let playIcon = document.getElementById('play-icon');
 leftControl.addEventListener('click', () => {   
   if(num == 1) num = 4;
   --num
@@ -24,7 +24,7 @@ const sliderControl = num => {
   slider.style.backgroundImage = `url("./images/${num}.jpg")`;
 }
 const sliderPlay = actn =>{
-  let playIcon = document.getElementById('play-icon');
+ 
   let classPlay = "fa-solid fa-";
   if(actn){
     this.runSlider = setInterval(() => {
@@ -41,7 +41,7 @@ const sliderPlay = actn =>{
        
 }
 window.addEventListener('load', sliderPlay(playSlider));
-slider.addEventListener('click', ()=>{
+playIcon.addEventListener('click', ()=>{
   playSlider = !playSlider;
   sliderPlay(playSlider);
 });
