@@ -1,6 +1,7 @@
 :root{
   --primary-color: #ffffff;
   --full-width: 100%;
+  --font: 2.5rem;
 }
 *{
   padding: 0;
@@ -44,7 +45,7 @@ body{
 }
 .play i{
   color: var(--primary-color);
-  font-size: 25px;
+  font-size: var(--font);
   position: absolute;
 }
 .slider-body{
@@ -63,7 +64,7 @@ body{
   text-shadow: 2px 2px 2px #000;
 }
 .slider-body h3{
-  font-size: 25px;
+  font-size: var(--font);
   color: #f3ea71;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
