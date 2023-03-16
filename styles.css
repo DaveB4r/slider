@@ -105,3 +105,14 @@ i:hover{
   cursor: pointer;
   z-index: 10000;
 }
+@media (min-width: 320px) and (max-width: 767px){
+  .slider-body h1{
+    font-size: 25px;
+  }
+  .slider-body h3, .slider-footer{
+    font-size: 15px;
+  }
+  .controls{
+    font-size: 20px;
+  }
+}
